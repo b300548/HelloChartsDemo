@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_line_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line Chart"/>
+
+    <Button
+        android:id="@+id/btn_pie_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pie Chart"/>
+
+    <Button
+        android:id="@+id/btn_combo_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combo Chart"/>
+
+    <Button
+        android:id="@+id/btn_preview_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preview Line chart"/>
+
+
+
+</LinearLayout>
